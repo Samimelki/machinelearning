@@ -9,7 +9,7 @@ from sklearn import metrics
 
 
 
-def run(fold):
+def run(fold, model):
     #read the training data with folds
     df= pd.read_csv(config.training_file)
 
